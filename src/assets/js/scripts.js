@@ -180,6 +180,11 @@
             'https://twitter.com/share?url=' + encodeURIComponent(location.href) + '&text=' + encodeURIComponent(document.title),
             440, 550);
           break;
+        case 'share-weibo':
+          _openWindow(
+            'http://service.weibo.com/share/share.php?appkey=3567148024&ralateUid=1219344334&searchPic=true&url=' + encodeURIComponent(location.href) + '&text=' + encodeURIComponent(document.title),
+            440, 550);
+          break;
       }
 
       return false;
