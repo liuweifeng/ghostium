@@ -134,6 +134,7 @@
 }
 
 .post-body {
+  text-align: justify;
   h1, .h1,
   h2, .h2 {
     padding-top: 30px;
@@ -168,6 +169,22 @@
 
 .post-social {
   text-align: right;
+
+  [data-action="share-weibo"]:hover{
+    color:#e6162d;
+  }
+
+  [data-action="share-twitter"]:hover{
+    color:#55acee;
+  }
+
+  [data-action="share-facebook"]:hover{
+    color:#3b5998;
+  }
+
+  [data-action="share-gplus"]:hover{
+    color:#d34836;
+  }
 
   .post-footer & {
     padding-left: 20px;
